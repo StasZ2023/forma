@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin:0;
+}
+html{
+    background-color:rgba(0, 0, 0, 0.7);
+    color:rgb(111, 0, 255)
+}
+p{
+    padding: 5px 0;
+    margin:0;
+}
+.main{
+    width:80%;
+    margin:10px auto;
+    background-color:rgba(255, 255, 255, 0.671);
+    padding:10px;
+    box-shadow: 0 0 10px 0 black;
+}
+fieldset{
+    padding:5px;
+}
+input{
+    background-color:rgba(255, 255, 255, 0.307);
+    border:0;
+    
+}
+input[type='text'], input[type='password'], input[type='tel'], input[type='email'],input[type='date'],input[type='month'], input[type='time']{
+    box-shadow: 0 0  10px 4px rgba(0, 47, 255, 0.555);
+    border-radius: 5px;
+}
+.fiel-1{
+    border:1px solid blue;
+    
+}
+.fiel-1 .leg{
+    color:red;
+}
+input[type='range']{
+    background-color:red;
+    color:red;
+}
+
+input[type='submit'],input[type='reset']{
+    padding:5px;
+    background-color:aqua;
+    box-shadow: 0 0 5px 0 black;
+}

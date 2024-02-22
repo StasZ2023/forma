@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>форма</title>
+</head>
+<body>
+    <div class="main">
+        <form action="" oninput="yel.value=eyl.value">
+            <fieldset class="fiel-1">
+                <legend class="leg">Форма регистрации</legend>
+                <br>
+                <fieldset>
+                    <legend>основная информация</legend>
+                    <label>
+                        <p>Логин</p>
+                        <input type="text" name="" id="" autocomplete="on" placeholder="0-9-a-z" required>    
+                    </label><br>
+                    <label for="pass">
+                        <p>Пароль</p> 
+                        <input type="password" name="" id="pass" autocomplete="on" required>
+                    </label>
+                    <label for="">
+                        <p>Ваш пол</p>
+                        <label for="">
+
+                            <label>Мужской<input type="radio" name="pol" id=""></label><br>
+                            <label>Женский<input type="radio" name="pol" id=""></label><br>
+                            <label>Общий<input type="radio" name="pol" id=""></label>
+                        </label>
+                    </label>
+                    <label for="tel">
+                        <p>Телефон</p>
+                        <input type="tel" name="" id="tel" autocomplete="on" required placeholder="89112495619322" pattern="[0-9]{11}"> 
+                    </label>
+                    <label for="email">
+                        <p>Почта</p>
+                    <input type="email" name="" id="email" alt="ali@gmail.com" placeholder="alt@mail.com">
+                    </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Дата</legend>
+                        <label for="date">
+                            <p>Дата рождения:</p>
+                            <input type="date" name="" id="date" required>
+                        </label>
+                        <label for="">
+                            <p>Какой месяц и год регистрации:</p>
+                            <input type="month">
+                        </label>
+                        <label for="">
+                            <p>время регистрации</p>
+                            <input type="time">
+                        </label>
+                    <label for="eyl">
+                        <p>Сколько вам сейчас лет:</p>
+                        <input type="range" min="1" max="120" id="eyl">
+                        <output name="yel"></output>
+                    </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Дополнительная информация</legend>
+                        <label for="">
+                            <p>Какие домашние животные есть</p>
+                                Кошка <input type="checkbox" name="hom" id=""><br>
+                                Собака<input type="checkbox" name="hom" id=""><br>
+                                Свинья<input type="checkbox" name="hom" id=""><br>
+
+                        </label>
+                    </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend>Кнопки</legend>
+                            <input type="submit" name="" id="" value="Отправить данные">
+                            <input type="reset" name="" id="" value="Сбросить данные">
+                        </fieldset>
+                    
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
